@@ -11,7 +11,6 @@ set -euo pipefail
 SSH_KEY="$HOME/.ssh/id_rsa.pub"
 
 check_deps_or_exit() {
-    # Check for dependencies
     for cmd in curl ssh-keyscan jq hostname whoami; do
         if ! command -v "$cmd" >/dev/null 2>&1; then
             echo "$cmd not found, exiting."

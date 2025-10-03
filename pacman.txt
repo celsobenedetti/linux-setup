@@ -1,4 +1,5 @@
 pacman -S \
+  wget
   stow
   tmux
   tmuxinator

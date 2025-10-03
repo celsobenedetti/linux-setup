@@ -1,4 +1,5 @@
 #!/bin/bash
+
 set -euo pipefail
 
 KEY_PATH="$HOME/.ssh/id_rsa"

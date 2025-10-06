@@ -22,3 +22,7 @@ ssh-keygen -t rsa -b 4096 -f "$KEY_PATH" -N "$PASSPHRASE" -q
 echo "New SSH key created at $KEY_PATH"
 echo "Your public key is:"
 cat "$KEY_PATH.pub"
+
+# add ssh key to agent
+eval $(ssh-agent)
+ssh-add

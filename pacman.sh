@@ -1,6 +1,7 @@
 #!/bin/bash
 
 pacman -S \
+    hyprsunset \
     wget \
     stow \
     tmux \
@@ -9,4 +10,6 @@ pacman -S \
     just \
     age \
     mkcert \
-    act
+    act \
+    aws-cli \
+    direnv

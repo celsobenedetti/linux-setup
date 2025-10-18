@@ -1,6 +1,6 @@
 #!/bin/bash
 
-pacman -S \
+yay -S \
     hyprsunset \
     wget \
     stow \
@@ -13,3 +13,7 @@ pacman -S \
     act \
     aws-cli \
     direnv
+
+# aur
+yay -S \
+    ngrok

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo pacman -S nordvpn-bin
+yay -S nordvpn-bin
 
 sudo groupadd nordvpn
 sudo usermod -aG nordvpn "$USER"

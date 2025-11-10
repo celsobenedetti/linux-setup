@@ -7,7 +7,9 @@
 
 INSTALL_DIR="/home/$USER/local/zen-browser"
 BIN_INSTALL_PATH="$INSTALL_DIR/zen/zen"
-BIN_TARGET_PATH="/home/$USER/.local/bin/zen"
+
+BIN_DIR="/home/$USER/.local/bin"
+BIN_TARGET_PATH="$BIN_DIR/zen"
 
 DOWNLOAD_URL="https://github.com/zen-browser/desktop/releases/latest/download/zen.linux-x86_64.tar.xz"
 DOWNLOAD_TAR_TARGET="$INSTALL_DIR/zen.linux-x86_64.tar.xz"
@@ -18,6 +20,7 @@ CACHE_DIR1="/home/$USER/.cache/zen-browser"
 CACHE_DIR2="/home/$USER/.cache/Zen"
 
 link_bin() {
+    mkdir "$BIN_DIR" 2>/dev/null
     ln -sf "$BIN_INSTALL_PATH" "$BIN_TARGET_PATH"
 }
 

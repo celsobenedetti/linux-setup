@@ -1,6 +1,5 @@
 #!/bin/bash
 
-yay -S syncthing 
+yay -S syncthing
 
-systemctl --user enable syncthing.service
-systemctl --user start syncthing.service
+systemctl --user enable --now syncthing.service

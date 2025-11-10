@@ -10,9 +10,7 @@ yay -S \
     just \
     age \
     mkcert \
-    act \
-    aws-cli \
-    direnv
+    act
 
 # aur
 yay -S \

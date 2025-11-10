@@ -10,6 +10,9 @@
 6. gpg
   1. `gpg.sh`
   2. `add_gpg_key_to_github.sh`
+  11. `./neovim.sh`
+  12. `./dotfiles.sh`
+
 
 
 ## additional packages

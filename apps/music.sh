@@ -2,6 +2,6 @@
 
 yay -S mpd mpc mpdris2 rmpc
 
-mkdir -p ~/.mpd
+mkdir -p ~/.mpd 2>/dev/null
 
-sudo systemctl enable --now mpd
+sudo systemctl enable --user --now mpd

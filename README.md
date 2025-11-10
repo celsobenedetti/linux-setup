@@ -4,14 +4,9 @@
 2. `for script in $(fd sh apps); do eval $script 2>/dev/null; done`
 3. log into google accounts
 4. `export GITHUB_TOKEN`
-5. ssh
-  1. `ssh.sh`
-  2. `add_ssh_key_to_github.sh`
-6. gpg
-  1. `gpg.sh`
-  2. `add_gpg_key_to_github.sh`
-  11. `./neovim.sh`
-  12. `./dotfiles.sh`
+5. `./auth/
+6. `./repos/`
+
 
 
 

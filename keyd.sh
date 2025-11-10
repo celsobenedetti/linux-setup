@@ -4,7 +4,7 @@ yay -S keyd
 
 sudo systemctl enable keyd --now
 
-sudo tee /etc/keyd/default.conf << 'EOF'
+sudo tee /etc/keyd/default.conf <<'EOF'
 [ids]
 
 *

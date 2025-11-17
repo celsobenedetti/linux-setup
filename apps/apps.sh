@@ -3,13 +3,20 @@
 # cli
 yay -S \
     opencode-bin \
-    aws-cli
+    aws-cli \
+    yt-dlp \
+    act
 
 # gui
 yay -S \
+    slack-desktop \
     qbittorrent \
-    slack-desktop
+    openrgb-bin \
+    foliate \
+    mongodb-compass-bin
 
 # fonts
 yay -S \
     otf-geist-mono-nerd
+
+gh extension install https://github.com/nektos/gh-act

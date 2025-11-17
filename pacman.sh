@@ -1,19 +1,21 @@
 #!/bin/bash
 
 yay -S \
-    hyprsunset \
     wget \
     stow \
     tmux \
-    tmuxinator \
-    zk \
-    just \
-    age \
     mkcert \
-    act
+    age \
+    zk \
+    timer \
+    openpomodoro \
+    just \
+    tmuxinator \
+    hyprsunset
 
 # aur
 yay -S \
     ngrok
 
+# make mise respect nvmrc
 mise settings add idiomatic_version_file_enable_tools node

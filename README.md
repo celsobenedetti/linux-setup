@@ -2,7 +2,7 @@
 
 1. `./keyd.sh`
 1. `./ssl.sh`
-2. `for script in $(fd sh apps); do eval $script 2>/dev/null; done`
+2. relevante `.sh` scripts in `./apps/`
 3. log into google accounts
 4. `export GITHUB_TOKEN`
 5. `./auth/`

@@ -1,11 +1,11 @@
 #!/bin/bash
 
-DIR="/mnt/1tb/work"
+: "${WORK:?Error: WORK environment variable is required}"
 
-mkdir -p "$DIR"
+mkdir -p "$WORK"
 
-cd "$DIR" || exit
-echo "Cloning repos in  $DIR"
+cd "$WORK" || exit
+echo "Cloning repos in  $WORK"
 
 gh repo clone plaidbean/integrations-private
 gh repo clone plaidbean/chatbot

@@ -1,17 +1,17 @@
 #!/bin/bash
 
 yay -S \
-  wget \
-  stow \
-  tmux \
-  mkcert \
   age \
-  zk \
-  timer \
-  openpomodoro \
-  just \
-  tmuxinator \
   hyprsunset \
+  just \
+  mkcert \
+  openpomodoro \
+  stow \
+  timer \
+  tmux \
+  tmuxinator \
+  wget \
+  zk \
   gum
 
 # aur
